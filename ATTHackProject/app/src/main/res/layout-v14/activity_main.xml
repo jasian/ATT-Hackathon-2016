@@ -20,21 +20,26 @@
         android:id="@+id/appHeader"
         android:layout_gravity="center_horizontal"
         android:textSize="50dp"
-        android:shadowColor="@android:color/holo_blue_bright"
-        android:singleLine="true" />
+        android:singleLine="true"
+        android:password="false"
+        android:autoText="true"
+        android:textIsSelectable="false"
+        android:phoneNumber="false"
+        android:allowUndo="false" />
+
+    <Button
+        android:id="@+id/signUp"
+        android:layout_width= "100dp"
+        android:layout_height="50dp"
+        android:text= "sign up"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="160dp" />
 
     <Button
         android:id="@+id/guest"
         android:layout_width= "100dp"
         android:layout_height="50dp"
         android:text= "guest"
-        android:layout_gravity="center"
-        android:layout_marginTop="160dp" />
-
-    <Button
-        android:id="@+id/signup"
-        android:layout_width= "100dp"
-        android:layout_height="50dp"
-        android:text= "sign up"
         android:layout_gravity="center_horizontal"/>
+
 </LinearLayout>
